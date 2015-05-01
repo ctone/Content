@@ -1,0 +1,499 @@
+﻿h1, h2, h3, h4, h5, h6 {
+    font-family: "ubunturegular", verdana;
+}
+
+body {
+    font-family: "ubunturegular", verdana;
+}
+
+footer {
+    background-color: #ED1B24;
+    color: #FFFFFF;
+    font-size: 80%;
+    list-style-position: outside;
+    list-style: none;
+    padding-top: 14px;
+    margin-top: 20px;
+}
+
+.search-result-area {
+    border: #efeeec solid 1px;
+    padding: 0.93rem !important;
+}
+
+.sticky-bg {
+    background-color: #ED1B24 !important;
+}
+
+.contain-to-grid {
+    background-color: transparent;
+}
+
+.top-bar {
+    background-color: transparent;
+}
+
+.top-bar-section ul li {
+    background-color: transparent;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background-color: transparent;
+    padding: 0px 8px;
+}
+
+    .top-bar-section li:not(.has-form) a:not(.button):hover {
+        background-color: transparent;
+    }
+
+.top-bar-section ul li > a {
+    padding: 0px 8px;
+    font-family: "ubuntubold", verdana;
+}
+
+.top-bar-section ul li > .login {
+    padding: 0px 8px;
+    font-family: "ubunturegular", verdana;
+}
+
+.top-bar-section .divider,
+.top-bar-section [role="separator"] {
+    border-top: solid 1px #E2E2E2;
+}
+
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+    border-right: solid 1px #E2E2E2;
+}
+
+.top-bar.expanded {
+    background-color: transparent;
+}
+
+    .top-bar.expanded .title-area {
+        background-color: transparent;
+    }
+
+    .top-bar.expanded .toggle-topbar a {
+        color: #FFFFFF;
+    }
+
+.top-bar .toggle-topbar.menu-icon a span::after {
+    box-shadow: 0 0px 0 1px #ED1B24, 0 7px 0 1px #ED1B24, 0 14px 0 1px #ED1B24;
+}
+
+.top-bar .toggle-topbar.menu-icon a span:hover:after {
+    box-shadow: 0 0px 0 1px "", 0 7px 0 1px "", 0 14px 0 1px "";
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #ED1B24;
+}
+
+button, .button {
+    background-color: #E4302F;
+}
+
+.traveller button:hover, .traveller button:focus, .traveller .button:hover, .traveller .button:focus {
+    background-color: white;
+    border: solid #cecece 1px;
+    color: #414141;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.traveller button, .traveller .button {
+    background-color: white;
+    border: solid #cecece 1px;
+    color: #414141;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.bookingbutton:hover, .bookingbutton:focus {
+    background-color: gray;
+    color: white;
+    font-size: 1em;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.bookingbutton, .bookingbutton {
+    background-color: #FFAE02;
+    color: white;
+    font-size: 1em;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.tiny.bookingbutton {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.booking-grey-button:hover, .booking-grey-button:focus {
+    background-color: #FFAE02;
+    color: white;
+    font-size: 1em;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.booking-grey-button, .booking-grey-button {
+    background-color: gray;
+    color: white;
+    font-size: 1em;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.tiny.booking-grey-button {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.dtt-button.tiny {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.bookmore {
+    color: #414141;
+    font-size: 1em;
+    margin: 15px;
+}
+
+.reveal-modal .close-reveal-modal, dialog .close-reveal-modal {
+    top: 0rem;
+    right: 0.4rem;
+    font-size: 2rem;
+}
+
+/*.herizontal-tabs dd.active a, .herizontal-tabs .tab-title.active a {
+    background-color: #FFFFFF;
+    color: #E4302F;
+}*/
+.herizontal-tabs dd > a, .herizontal-tabs .tab-title > a {
+    background-color: #E4302F;
+    color: #E4302F;
+    padding: 8px 12px;
+    font-size: 0.8rem;
+    border-top: 1px solid #efefef;
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-top-left-radius: 8px;
+    -moz-border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+    .herizontal-tabs dd > a:hover, .herizontal-tabs .tab-title > a:hover {
+        background-color: #ED1B24;
+        color: #FFFFFF;
+    }
+
+.herizontal-tabs dd.active a, .herizontal-tabs .active.tab-title a {
+    background-color: #ED1B24;
+    color: #FFFFFF;
+}
+
+#slider-range {
+    border-width: 0px;
+    background: #eeedeb !important;
+}
+
+.ui-slider-range {
+    background: red url("images/ui-bg_highlight-soft_15_cc0000_1x100.png") 50% 50% repeat-x !important;
+}
+
+span.ui-corner-all {
+    border-radius: 10px !important;
+    border: #cd0000 3px solid !important;
+}
+
+/* Responsive Calendar for Foundation */
+.calendar {
+    margin-left: 0;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+    .calendar * {
+        list-style: none;
+        line-height: 2;
+    }
+
+    .calendar .title {
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 2;
+        background-color: #4D4D4D;
+        color: white;
+    }
+
+        .calendar .title > a {
+            text-align: center;
+            font-size: 1rem;
+        }
+
+    .calendar .week {
+        padding: 0px;
+        margin: 0px;
+    }
+
+        .calendar .week:before, .calendar .week:after {
+            content: " ";
+            display: table;
+        }
+
+        .calendar .week:after {
+            clear: both;
+        }
+
+    .calendar .day,
+    .calendar .days {
+        position: relative;
+        padding: 0.39375rem;
+        width: 100%;
+        float: left;
+        text-align: center;
+        font-size: 0.8em;
+        background-color: #78CC40;
+        color: white;
+        border-right: solid 1px white;
+        border-top: solid 1px white;
+    }
+
+    .calendar .day-header {
+        background-color: #CCCCCC;
+    }
+
+        .calendar .day-header .day,
+        .calendar .day-header .days {
+            background-color: #CCCCCC;
+            color: white;
+            text-align: center;
+            display: none;
+            line-height: 2;
+        }
+
+.day:hover, .days:hover {
+    background: #efefef;
+}
+
+.holiday-day {
+    background: #f15c6e;
+}
+
+    .holiday-day:hover {
+        background: #f77d8c;
+    }
+
+.day.previous-month,
+.days.previous-month,
+.day.next-month,
+.days.next-month {
+    /*background: #e9e9e9;
+    color: #222222;*/
+    background: white;
+    display: none;
+    color: #CCCCCC;
+}
+
+.day.today, .days.today {
+    background: #76df9d;
+}
+
+    .day.today:hover, .days.today:hover {
+        background: #65ce8c;
+    }
+
+
+
+@media only screen {
+    .calendar .small-1 {
+        position: relative;
+        width: 14.28571%;
+        text-align: center;
+    }
+
+    .calendar .day-header .small-1,
+    .small-1.previous-month,
+    .small-1.next-month {
+        display: block;
+        visibility: visible;
+    }
+
+    .red-top-bar .toggle-topbar.menu-icon a span::after {
+        box-shadow: 0px 0px 0px 1px white, 0px 7px 0px 1px white, 0px 14px 0px 1px white;
+    }
+
+    .owl-carousel .owl-controls .owl-nav .owl-prev {
+        position: absolute;
+        left: 10px;
+        top: 55px;
+    }
+
+    .owl-carousel .owl-controls .owl-nav .owl-next {
+        position: absolute;
+        right: 10px;
+        top: 55px;
+    }
+
+    .owl-theme .owl-nav [class*='owl-'] {
+        background: none;
+    }
+
+    .owl-theme .owl-dots {
+        z-index: 99;
+        position: relative;
+        top: -40px;
+    }
+
+    .tabs dd > a, .tabs .tab-title > a {
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width: 40.063em) {
+    .calendar .medium-1 {
+        position: relative;
+        width: 14.28571%;
+    }
+
+    .calendar .day-header .medium-1,
+    .medium-1.previous-month,
+    .medium-1.next-month {
+        display: block;
+        visibility: visible;
+    }
+
+    .traveller input[type="text"] {
+        margin-bottom: 0px;
+    }
+
+    .owl-carousel .owl-controls .owl-nav .owl-prev {
+        position: absolute;
+        left: 10px;
+        top: 150px;
+    }
+
+    .owl-carousel .owl-controls .owl-nav .owl-next {
+        position: absolute;
+        right: 10px;
+        top: 150px;
+    }
+
+    .map-area {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 62.5em) {
+    .tabs.vertical.vertical-tabs {
+        width: 23.8%;
+        max-width: 23.8%;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .vertical-tabs .tab-title.active {
+        border-right: #ED1B24 solid 5px;
+    }
+
+    .vertical-tabs .tab-title {
+        border-right: #EBEBEB solid 5px;
+        border-bottom: #EBEBEB dashed 2px;
+        background-color: white;
+    }
+
+    .vertical-tabs .tabs dd > a, .vertical-tabs .tabs .tab-title > a {
+        background-color: white !important;
+        text-align: right;
+    }
+
+        .vertical-tabs .tabs dd > a:hover, .vertical-tabs .tabs .tab-title > a:hover {
+            background-color: white;
+        }
+
+    .vertical-tabs .content {
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+    .calendar .clarge-1 {
+        position: relative;
+        width: 14.28571%;
+    }
+
+    .calendar .day-header .clarge-1,
+    .clarge-1.previous-month,
+    .clarge-1.next-month {
+        display: block;
+        visibility: visible;
+    }
+}
+
+@media only screen and (min-width: 90.063em) {
+    .calendar .xlarge-1 {
+        position: relative;
+        width: 14.28571%;
+    }
+
+    .calendar .day-header .xlarge-1,
+    .xlarge-1.previous-month,
+    .xlarge-1.next-month {
+        display: block;
+        visibility: visible;
+    }
+}
+
+@media only screen and (min-width: 120.063em) {
+    .calendar .xxlarge-1 {
+        position: relative;
+        width: 14.28571%;
+    }
+
+    .calendar .day-header .xxlarge-1,
+    .xxlarge-1.previous-month,
+    .xxlarge-1.next-month {
+        display: block;
+        visibility: visible;
+    }
+}
+
+.search-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+    .search-checkbox input[type="checkbox"] + label {
+        background: url('/Images/checkbox.png') no-repeat;
+        height: 20px;
+        padding-left: 27px;
+        color: gray;
+        font-size: 0.8em;
+    }
+
+    .search-checkbox input[type="checkbox"]:checked + label {
+        background: url('/Images/checkbox-checked.png') no-repeat;
+        height: 20px;
+    }
+
+.search-checkbox input[type="radio"] {
+    display: none;
+}
+
+    .search-checkbox input[type="radio"] + label {
+        background: url('/Images/checkbox.png') no-repeat;
+        height: 20px;
+        padding-left: 27px;
+        color: gray;
+    }
+
+    .search-checkbox input[type="radio"]:checked + label {
+        background: url('/Images/radio_checked.png') no-repeat;
+        height: 20px;
+    }

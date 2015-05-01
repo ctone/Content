@@ -1,0 +1,82 @@
+﻿body {
+    color:#414141;
+}
+h1, h2, h3, h4, h5, h6{
+    color:#414141;
+}
+.top-bar {
+    background: #ED1B24;
+}
+.top-bar-section ul li {
+     background: #ED1B24;
+}
+.top-bar-section ul li > a:hover {
+    background: #911117  !important;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #ED1B24;
+}
+.top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
+    background-color: #911117 !important;
+}
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+    background: #ED1B24;
+}
+.top-bar-section ul li:hover:not(.has-form) > a {
+    background: #911117;
+}
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #911117;
+}
+button, .button {
+    background-color: #ED1B24;
+}
+
+.input-validation-error {
+  border: 1px solid #e80c4d !important;   
+}
+
+.field-validation-error {
+    color: #e80c4d;
+    font-size: 14px;
+}
+
+.validation-summary-errors ul{
+    list-style-type: none;
+    color: #e80c4d;
+    font-size: 14px;
+}
+
+.room-selection {
+    border:1px solid #c0c0c0;
+    padding: 5px;
+}
+
+.top-bar-whitebg{
+    background: white;
+}
+.top-bar-whitebg .top-bar {
+    background: white;
+}
+.top-bar-whitebg .top-bar-section ul li {
+     background: white;
+
+}
+.top-bar-whitebg .top-bar-section ul li > a:hover {
+    background: white  !important;
+}
+.top-bar-whitebg .top-bar-section li:not(.has-form) a:not(.button) {
+    background: white;
+    color:#414141;
+}
+.top-bar-whitebg .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
+    color:white;
+}
+.top-bar-whitebg .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+    background: white;
+    color:#414141;
+    border:solid 1px #911117;
+}
+.top-bar-whitebg .top-bar-section ul li:hover:not(.has-form) > a {
+    background: white;
+}

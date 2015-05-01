@@ -1,0 +1,132 @@
+﻿body {
+}
+.sysName {
+    font-size: 32px;
+    font-weight:bold;
+}
+#body {
+    min-height:500px;
+    padding-top:15px;
+}
+/*=====Table====*/
+
+.table-container 
+{
+    display:  table;
+    width: 100%;
+    background-color:#eee;
+    border-spacing:5px;/*cellspacing:poor IE support for  this*/
+    /* border-collapse:separate;*/
+}
+
+.table-row-head
+{
+    display:table-row;
+    width:auto;
+    font-size:14px !important;
+    text-align: center;
+    font-weight: bold;
+}
+
+.table-row
+{
+    display:table-row;
+    width:auto;
+    font-size:14px !important;
+}
+.table-column
+{
+    float:left;/*fix for  buggy browsers*/
+    display:table-column;
+    min-height: 2px;
+}
+.table-column {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+.table-row:nth-child(even) {background: #CCC}
+.table-row:nth-child(odd) {background: #FFF}
+
+[class*="column"] + [class*="column"]:last-child {
+float: left;
+}
+
+.table-row:before, .table-row:after,.table-row-head:before, .table-row-head:after {
+    display:none!important;
+}
+
+/*=======Login Page=======*/
+
+.admin-login-tab{
+    margin-top: 44px;
+}
+
+.admin-login > form > ul
+{
+    list-style:none;
+    margin:1.2em;
+}
+.login-screen
+{
+    background-color: #fff;
+    margin: 10em auto auto auto;
+}
+
+.curtain
+{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #7f7f7f;
+}
+.btn-login {
+    width:108px;
+    height:37px;
+    background: url(../Images/btnLogin.png) no-repeat top left;
+    color: transparent;
+    background-color: transparent;
+    border: none;
+}
+.btn-save{
+    width:108px;
+    height:37px;
+    background: url(../Images/btnSave.png) no-repeat top left;
+    color: transparent;
+    background-color: transparent;
+    border: none;
+}
+.btn-cancel{
+    width:108px;
+    height:37px;
+    background: url(../Images/btn_cancel.png) no-repeat top left;
+    color: transparent;
+    background-color: transparent;
+    border: none;
+}
+
+.padding-top-10 {    padding-top:10px;}
+.padding-top-15 {    padding-top:15px;}
+.padding-top-20 {    padding-top:20px;}
+.padding-bottom-10 {    padding-bottom:10px;}
+.padding-bottom-15 {    padding-bottom:15px;}
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+.editor-label {
+    font-size: 0.875rem;
+    color: #414141;
+    cursor: pointer;
+    display: block;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.no-padding-left {
+    padding-left:0px!important;
+}
+.no-padding-right {
+    padding-right:0px!important;
+}

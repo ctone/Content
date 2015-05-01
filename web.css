@@ -299,8 +299,8 @@ header a {
     }
     .content-detail-transfer-large {
         padding-top: 10px;
-        height:466px;
-        max-height:466px;
+        height:580px;
+        max-height:580px;
         overflow:hidden;
     }
     .content-detail-transfer-small {
@@ -1236,6 +1236,13 @@ header a {
     .awesome-deal-large {
         height:410px;
         max-height:410px;
+    }
+
+        .content-detail-transfer-large {
+        padding-top: 10px;
+        height:466px;
+        max-height:466px;
+        overflow:hidden;
     }
 }
 /**************END MEDIA QUERY FOR SCREEN SIZE***********************/

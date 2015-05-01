@@ -919,6 +919,11 @@ header a {
          max-height:152px;
          width:100%;
           }
+
+    .search-result-header {
+        padding-top:30px;
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -1217,6 +1222,11 @@ header a {
         height:169px;
          max-height:169px;
           }
+
+         .search-result-header {
+        padding-top:0px;
+        width: 100%;
+    }
 }
 /**************END MEDIA QUERY FOR SCREEN SIZE***********************/
 

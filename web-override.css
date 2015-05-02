@@ -40,6 +40,7 @@ footer {
 .top-bar-section li:not(.has-form) a:not(.button) {
     background-color: transparent;
     padding: 0px 8px;
+      line-height: 35px;
 }
 
     .top-bar-section li:not(.has-form) a:not(.button):hover {

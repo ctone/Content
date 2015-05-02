@@ -135,14 +135,12 @@ header a {
 }
 
 .traveller-room {
-    margin-top: 15px;
     background-color: #ED1B24;
     font-size: 1em;
     color: white;
     padding-left: 10px;
-    padding-top: 7px;
+    padding-top: 10px;
     float: left;
-    height: 40px;
 }
 
 .traveller-room-name {
@@ -152,7 +150,7 @@ header a {
     color: #414141;
     padding: 10px;
     float: left;
-    height: 40px;
+    min-height: 40px;
 }
 
 .traveller-yellow {
@@ -930,6 +928,14 @@ header a {
         max-height:445px;
         overflow:hidden;
     }
+
+    .room-type-cover {
+    background-color: #ED1B24
+    }
+
+    .traveller-room-name {
+    margin-top: 0px;
+}
 }
 
 @media only screen and (min-width: 40.063em) {

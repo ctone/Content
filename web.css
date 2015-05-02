@@ -299,8 +299,8 @@ header a {
     }
     .content-detail-transfer-large {
         padding-top: 10px;
-        height:580px;
-        max-height:580px;
+        height:510px;
+        max-height:510px;
         overflow:hidden;
     }
     .content-detail-transfer-small {
@@ -483,15 +483,15 @@ header a {
     }
 
     .transfer-pic {
-        max-height:244px;
         overflow:hidden;
         margin-bottom: 10px;
+        max-height:160px;
     }
 
     .transfer-pic > img {
         width: 100%;
         cursor:pointer;
-        min-height:244px;
+        min-height:160px;
     }
 
 
@@ -1243,6 +1243,18 @@ header a {
         height:466px;
         max-height:466px;
         overflow:hidden;
+    }
+
+            .transfer-pic {
+        overflow:hidden;
+        margin-bottom: 10px;
+        max-height:250px;
+    }
+
+            .transfer-pic > img {
+        width: 100%;
+        cursor:pointer;
+        min-height:250px;
     }
 }
 /**************END MEDIA QUERY FOR SCREEN SIZE***********************/

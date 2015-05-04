@@ -330,8 +330,8 @@ span.ui-corner-all {
 
     .owl-carousel .owl-controls .owl-nav .owl-prev {
         position: absolute;
-        left: 0px;
-        top: 45px;
+        left: 10px;
+        top: 35px;
     }
 
     .owl-prev> img,.owl-next > img{
@@ -339,8 +339,8 @@ span.ui-corner-all {
     }
     .owl-carousel .owl-controls .owl-nav .owl-next {
         position: absolute;
-        right: 0px;
-        top: 45px;
+        right: 10px;
+        top: 55px;
     }
 
     .owl-theme .owl-nav [class*='owl-'] {
@@ -378,7 +378,7 @@ span.ui-corner-all {
     .owl-carousel .owl-controls .owl-nav .owl-prev {
         position: absolute;
         left: 10px;
-        top: 150px;
+        top: 100px;
     }
 
     .owl-prev> img,.owl-next > img{
@@ -387,7 +387,7 @@ span.ui-corner-all {
     .owl-carousel .owl-controls .owl-nav .owl-next {
         position: absolute;
         right: 10px;
-        top: 150px;
+        top: 100px;
     }
 
     .map-area {
@@ -427,6 +427,14 @@ span.ui-corner-all {
     .vertical-tabs .content {
         padding-right: 10px;
     }
+    .owl-carousel .owl-controls .owl-nav .owl-prev {
+        top: 150px;
+    }
+
+    .owl-carousel .owl-controls .owl-nav .owl-next {
+        top: 150px;
+    }
+
 }
 
 @media only screen and (min-width: 64.063em) {

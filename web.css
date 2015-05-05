@@ -787,7 +787,7 @@ header {
         }
 
     #slice-content.owl-carousel .owl-stage-outer {
-        height: 200px !important;
+        height: 140px !important;
     }
 
     #slice-content-hotel .item {
@@ -885,8 +885,8 @@ header {
         .quick-search-cover input[type=submit] {
             margin-top: 33px;
             background-color: #ff8d02;
-            height: 36px;
-            font-size: 16px;
+            height: 50px;
+            font-size: 20px;
         }
 
             .quick-search-cover input[type=submit]:hover {
@@ -973,6 +973,20 @@ header {
         width: 119px;
         margin-right: 36px !important;
     }
+
+    .side-menu {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+    #btnPackageSearch {
+    margin-top: 15px;
+}
+
+    .quick-search-margin-top {
+    margin-top: 18px;
+}
+
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -1315,6 +1329,20 @@ header {
     .bookmore-close-btn {
         margin-right: 0px !important;
     }
+
+    .side-menu {
+    padding-right: 45px;
+}
+
+    #btnPackageSearch {
+    margin-top: 33px;
+}
+
+    .quick-search-margin-top {
+    margin-top: 40px;
+}
+
+
 }
 
 
@@ -1323,10 +1351,7 @@ header {
 
 
 
-.side-menu {
-    padding-left: 8px;
-    padding-right: 45px;
-}
+
 
     .side-menu > .column {
         border-bottom: 1px #cecece dashed;
@@ -1460,6 +1485,7 @@ header {
 .margin-top40 {
     margin-top: 40px;
 }
+
 
 .margin-top33 {
     margin-top: 33px;
@@ -1687,9 +1713,6 @@ header {
     font-size: 13px;
 }
 
-#btnPackageSearch {
-    margin-top: 33px;
-}
 
 select {
     margin-bottom: 0px;

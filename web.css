@@ -244,7 +244,6 @@ header {
         .content-3-box img {
             cursor: pointer;
             width: 100%;
-            height: 190px;
         }
 
     .content-3-box-subject {
@@ -436,9 +435,6 @@ header {
 
         .content-vertical-large img, .content-large img {
             width: 100%;
-            height: 152px;
-            max-height: 152px;
-            overflow: hidden;
         }
 
     #NewsFeatures {
@@ -465,7 +461,6 @@ header {
 
     .content-vertical > img {
         width: 100%;
-        height: 120px;
         cursor: pointer;
     }
 
@@ -764,23 +759,26 @@ header {
 
     #slice-content {
         width: 100%;
-        height: 140px;
     }
+
 
         #slice-content .item {
             width: 100%;
         }
 
-        #slice-content img {
-            width: 100%;
-            max-height: 200px;
-            overflow: hidden;
+            #slice-content .item img {
+                width: 100%;
+                overflow: hidden;
+            }
+
+        #slice-content.owl-carousel .owl-stage-outer {
         }
 
     #slice-content-hotel {
         width: 100%;
         height: 385px;
     }
+
 
         #slice-content-hotel.owl-carousel .owl-stage-outer {
             height: 250px !important;
@@ -789,6 +787,7 @@ header {
     #slice-content.owl-carousel .owl-stage-outer {
         height: 140px !important;
     }
+
 
     #slice-content-hotel .item {
         width: 100%;
@@ -799,6 +798,11 @@ header {
         max-height: 250px;
         overflow: hidden;
     }
+
+    #slice-content-hotel.owl-carousel .owl-stage-outer {
+        height: 250px !important;
+    }
+
 
     .transfer-small-pic {
         max-height: 160px;
@@ -882,12 +886,14 @@ header {
             border-radius: 3px; /* CSS3 */
         }
 
+
         .quick-search-cover input[type=submit] {
             margin-top: 33px;
             background-color: #ff8d02;
             height: 50px;
             font-size: 20px;
         }
+
 
             .quick-search-cover input[type=submit]:hover {
                 background-color: #dfdfdf;
@@ -975,18 +981,17 @@ header {
     }
 
     .side-menu {
-    padding-left: 8px;
-    padding-right: 8px;
-}
+        padding-left: 8px;
+        padding-right: 8px;
+    }
 
     #btnPackageSearch {
-    margin-top: 15px;
-}
+        margin-top: 15px;
+    }
 
     .quick-search-margin-top {
-    margin-top: 18px;
-}
-
+        margin-top: 18px;
+    }
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -1143,6 +1148,15 @@ header {
         padding-left: 0px;
     }
 
+
+    #slice-content {
+        height: 250px;
+    }
+
+        #slice-content .item img {
+            max-height: 250px;
+        }
+
     #slice-content {
         width: 100%;
         height: 335px;
@@ -1157,6 +1171,7 @@ header {
             max-height: 335px;
             overflow: hidden;
         }
+
 
     #slice-content-hotel {
         width: 100%;
@@ -1330,51 +1345,58 @@ header {
         margin-right: 0px !important;
     }
 
+
     .side-menu {
-    padding-right: 45px;
-}
+        padding-right: 45px;
+    }
 
     #btnPackageSearch {
-    margin-top: 33px;
-}
+        margin-top: 33px;
+    }
 
     .quick-search-margin-top {
-    margin-top: 40px;
+        margin-top: 40px;
+    }
 }
 
+@media only screen and (min-width: 62.5em) {
+    #slice-content-hotel {
+        height: 385px;
+    }
 
+    #slice-content {
+        height: 335px;
+    }
+
+        #slice-content .item img {
+            max-height: 335px;
+        }
 }
-
 
 /**************END MEDIA QUERY FOR SCREEN SIZE***********************/
 
+.side-menu > .column {
+    border-bottom: 1px #cecece dashed;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
 
-
-
-
-
-    .side-menu > .column {
-        border-bottom: 1px #cecece dashed;
-        padding-top: 7px;
-        padding-bottom: 7px;
+    .side-menu > .column > a {
+        color: #464646;
+        font-size: 15px;
     }
 
-        .side-menu > .column > a {
-            color: #464646;
-            font-size: 15px;
-        }
-
-            .side-menu > .column > a:hover {
-                color: #e90303;
-            }
-
-        .side-menu > .column:last-child {
-            border-bottom: none;
-        }
-
-        .side-menu > .column > .active {
+        .side-menu > .column > a:hover {
             color: #e90303;
         }
+
+    .side-menu > .column:last-child {
+        border-bottom: none;
+    }
+
+    .side-menu > .column > .active {
+        color: #e90303;
+    }
 
 .news-feature {
     padding-left: 8px;

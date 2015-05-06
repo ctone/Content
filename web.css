@@ -189,9 +189,8 @@ header {
     margin-top: 10px; 
 }
 
-.no-margin-bottom {
+.quick-search-date-input input{
     margin-bottom:0px;
-
 }
 
 

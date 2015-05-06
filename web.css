@@ -19,10 +19,6 @@ header {
         color: #FFFFFF;
     }
 
-.login-info {
-    font-size: 0.8em;
-}
-
 .display-block {
     display: block;
 }
@@ -200,6 +196,14 @@ header {
         margin-left: 0.93rem;
     }
 
+    .login-info {
+        margin-top:0.8em;
+        font-size: 0.8em;
+        padding-right:4px;
+        padding-left:4px;
+        display:inline-block;
+    }
+
     .menu .main-menu {
         margin-top: 0px;
     }
@@ -209,6 +213,8 @@ header {
         margin-right: 8px;
         font-size: 78%;
         text-align: center;
+        padding-top:4px;
+        padding-bottom:4px;
     }
 
         .sitemap li a, .sitemap li a:hover {
@@ -228,6 +234,12 @@ header {
     .step-title-label {
         color: #FFFFFF;
         margin-top: 15px;
+    }
+    
+    .button.expand-mobile-small-pc, .expand-mobile-small-pc.button {
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
     }
 
     .content-subject {
@@ -1012,10 +1024,10 @@ header {
         display: inline-block;
     }
 
-        .sitemap li {
-            float: left;
-            text-align: left;
-        }
+    .sitemap li {
+        float: left;
+        text-align: left;
+    }
 
     #title-bar {
         margin-top: 10px;
@@ -1360,6 +1372,20 @@ header {
 }
 
 @media only screen and (min-width: 62.5em) {
+
+    .login-info {
+        margin-top:0.4em;
+        padding-right:0px;
+        padding-left:0px;
+    }
+    .button.expand-mobile-small-pc, .expand-mobile-small-pc.button {
+        padding-top: 0.875rem;
+        padding-right: 1.75rem;
+        padding-bottom: 0.9375rem;
+        padding-left: 1.75rem;
+        font-size: 0.8125rem;
+        width: auto;
+    }
     #slice-content-hotel {
         height: 385px;
     }
@@ -1368,9 +1394,14 @@ header {
         height: 335px;
     }
 
-        #slice-content .item img {
-            max-height: 335px;
-        }
+    #slice-content .item img {
+        max-height: 335px;
+    }
+
+    .sitemap li {
+        padding-top:0px;
+        padding-bottom:0px;
+    }
 }
 
 /**************END MEDIA QUERY FOR SCREEN SIZE***********************/
@@ -1381,22 +1412,22 @@ header {
     padding-bottom: 7px;
 }
 
-    .side-menu > .column > a {
-        color: #464646;
-        font-size: 15px;
-    }
+.side-menu > .column > a {
+    color: #464646;
+    font-size: 15px;
+}
 
-        .side-menu > .column > a:hover {
-            color: #e90303;
-        }
+.side-menu > .column > a:hover {
+    color: #e90303;
+}
 
-    .side-menu > .column:last-child {
-        border-bottom: none;
-    }
+.side-menu > .column:last-child {
+    border-bottom: none;
+}
 
-    .side-menu > .column > .active {
-        color: #e90303;
-    }
+.side-menu > .column > .active {
+    color: #e90303;
+}
 
 .news-feature {
     padding-left: 8px;

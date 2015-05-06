@@ -34,12 +34,13 @@ footer {
 }
 
 .top-bar-section ul li {
+    padding-top: 0px;
     background-color: transparent;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button) {
     background-color: transparent;
-    padding: 0px 8px;
+    padding: 4px 8px;
       line-height: 35px;
 }
 
@@ -312,6 +313,9 @@ span.ui-corner-all {
 
 
 @media only screen {
+    [class*="column"] + [class*="column"]:last-child {
+        float:left;
+    }
     .calendar .small-1 {
         position: relative;
         width: 14.28571%;

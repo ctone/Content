@@ -222,8 +222,8 @@ header {
         margin-right: 8px;
         font-size: 78%;
         text-align: center;
-        padding-top:4px;
-        padding-bottom:4px;
+        padding-top:8px;
+        padding-bottom:8px;
     }
 
         .sitemap li a, .sitemap li a:hover {
@@ -805,9 +805,7 @@ header {
             height: 250px !important;
         }
 
-    #slice-content.owl-carousel .owl-stage-outer {
-        height: 140px !important;
-    }
+
 
 
     #slice-content-hotel .item {
@@ -1401,6 +1399,7 @@ header {
 
     #slice-content {
         height: 335px;
+        margin-bottom: 20px;
     }
 
     #slice-content .item img {
@@ -1408,8 +1407,12 @@ header {
     }
 
     .sitemap li {
-        padding-top:0px;
-        padding-bottom:0px;
+        padding-top:4px;
+        padding-bottom:4px;
+    }
+
+        #slice-content.owl-carousel .owl-stage-outer {
+        height: 335px !important;
     }
 }
 

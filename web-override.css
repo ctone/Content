@@ -115,7 +115,7 @@ button, .button {
     background-color: gray;
     color: white;
     font-size: 1em;
-    margin: 5px;
+    margin: 5px 0px;
     font-weight: bold;
 }
 
@@ -123,7 +123,7 @@ button, .button {
     background-color: #FFAE02;
     color: white;
     font-size: 1em;
-    margin: 5px;
+    margin: 5px 0px;
     font-weight: bold;
 }
 
@@ -136,7 +136,7 @@ button, .button {
     background-color: #FFAE02;
     color: white;
     font-size: 1em;
-    margin: 5px;
+    margin: 5px 0px;
     font-weight: bold;
 }
 
@@ -144,7 +144,7 @@ button, .button {
     background-color: gray;
     color: white;
     font-size: 1em;
-    margin: 5px;
+    margin: 5px 0px;
     font-weight: bold;
 }
 
@@ -161,7 +161,7 @@ button, .button {
 .bookmore {
     color: #414141;
     font-size: 1em;
-    margin: 15px;
+    margin-top: 15px;
 }
 
 .reveal-modal .close-reveal-modal, dialog .close-reveal-modal {
@@ -313,6 +313,9 @@ span.ui-corner-all {
 
 
 @media only screen {
+    .calendar .day, .calendar .days {
+        width: 14.28%;
+    }
     [class*="column"] + [class*="column"]:last-child {
         float:left;
     }
@@ -471,6 +474,21 @@ span.ui-corner-all {
     .clarge-1.next-month {
         display: block;
         visibility: visible;
+    }
+
+    .bookingbutton, .bookingbutton {
+        margin: 5px;
+    }
+    .booking-grey-button, .booking-grey-button {
+        margin: 5px;
+    }
+
+    .bookingbutton:hover, .bookingbutton:focus {
+        margin: 5px;
+    }
+
+    .booking-grey-button:hover, .booking-grey-button:focus {
+        margin: 5px;
     }
 }
 
